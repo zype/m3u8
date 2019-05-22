@@ -8,7 +8,7 @@ module M3u8
     end
 
     def to_s
-      "EXT-X-CUE-OUT:DURATION=#{@slate_duration}\n"
+      "#EXT-X-CUE-OUT:DURATION=#{@slate_duration}\n"
     end
   end
 end
