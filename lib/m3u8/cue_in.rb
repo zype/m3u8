@@ -4,7 +4,7 @@ module M3u8
   # SCTE35 cue in for server side ad insertion
   class CueIn
     def to_s
-      "EXT-X-CUE-IN\n"
+      "#EXT-X-CUE-IN\n"
     end
   end
 end
